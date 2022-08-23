@@ -1,0 +1,79 @@
+/* Navbar */
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+    color: #fff;
+}
+
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.text-judul {
+    /* text-shadow: 3px 2px 1px grey; */
+    font-size: 30px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    /* border: 1px dashed grey; */
+    /* border: 1px solid grey; */
+    /* background-color: gray; */
+    color: #fff;
+    
+    margin-top: 10%;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background: url('icon/check-circle.svg') right 10px center / 30px no-repeat;
+    /* text-decoration: none; */
+    /* color: #000; */
+}
+
+.bg-color{
+    background-color: #009688;
+}
+
+.color{
+    color: rgb(170, 159, 159);
+}
+
+.color-white{
+    color: #fff;
+}
+
+.size-font{
+    font-size: 12px;
+}
+
+body{
+    background-color: #131234;
+}
+
+.bg-color-card{
+    background-color: #0F2149;
+}
+
+/* .center-tengah{
+    align-items: center;
+    background-color: #0B63DC;
+    width: 40%;
+} */
+
+
+/* Dekstop Vertion */
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
