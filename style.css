@@ -33,8 +33,17 @@
     background-color: #009688;
 }
 
+.bg-color-table{
+    /* background-color: #0F2149; */
+    background-color: #0F2149;
+}
+
 .color{
     color: rgb(170, 159, 159);
+}
+
+.color-table{
+    color: #009688;
 }
 
 .color-white{
