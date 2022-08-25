@@ -52,56 +52,78 @@
         </div>
 
           <!-- Cards 2 -->
-          <div class="container" style="margin-top: 120px;">
-            <div class="row">
-              <div class="col-md-1"></div>
+            <div class="container" style="margin-top: 120px;">
+                <div class="row">
+                    <!-- <div class="col-md-1"></div> -->
 
-              <div class="col-md-10" >
-                <table class="table" >
-                    <thead>
-                      <tr>
-                        <th scope="col"  class="color-white ">No</th>
-                        <th scope="col" class="color-white">Insiden</th>
-                        <th scope="col" class="color-white">Date</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="bg-color-table">
-                        <th scope="row" class="color-table">1</th>
-                        <td class="color-table">Mark</td>
-                        <td class="color-white">Otto</td>
-                      </tr>
-                      <tr class="bg-color-table">
-                        <th scope="row" class="color-table">2</th>
-                        <td class="color-table">Mark</td>
-                        <td class="color-white">Otto</td>
-                      </tr>
-                      <tr class="bg-color-table">
-                        <th scope="row" class="color-table">3</th>
-                        <td class="color-table">Mark</td>
-                        <td class="color-white">Otto</td>
-                      </tr>
-                      <tr class="bg-color-table">
-                        <th scope="row" class="color-table">4</th>
-                        <td class="color-table">Mark</td>
-                        <td class="color-white">Otto</td>
-                      </tr>
-                      <tr class="bg-color-table">
-                        <th scope="row" class="color-table">5</th>
-                        <td class="color-table">Mark</td>
-                        <td class="color-white">Otto</td>
-                      </tr>
-                      <tr class="bg-color-table">
-                        <th scope="row" class="color-table">6</th>
-                        <td class="color-table">Mark</td>
-                        <td class="color-white">Otto</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                    <!-- <div class="col-md-10" > -->
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active color-text-menu-tab" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Incident & maintenance history</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link color-text-menu-tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Uptime calendar</button>
+                            </li>
+                          
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0" style="color: #fff;">
+                                <!-- @include('tabel-insiden') -->
+                                <!-- <div w3-include-html="tabel-insiden.html"></div> -->
+                                <table class="table margin-top-menengah" >
+                                    <thead>
+                                      <tr>
+                                        <th scope="col"  class="color-white ">No</th>
+                                        <th scope="col" class="color-white">Insiden</th>
+                                        <th scope="col" class="color-white">Date</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr class="bg-color-table">
+                                        <th scope="row" class="color-table">1</th>
+                                        <td class="">
+                                            <a href="insiden.html" class="color-table"   style="text-decoration: none"> 
+                                                Update Platform from 2022-07-07 18:00 CEST to 2022-07-07 20:00 CEST
+                                            </a>
+                                        </td>
+                                        <td class="color-white">2022-07-07</td>
+                                      </tr>
+                                      <tr class="bg-color-table">
+                                        <th scope="row" class="color-table">2</th>
+                                        <td class="color-table">Issue with CDN provider</td>
+                                        <td class="color-white">2022-06-21</td>
+                                      </tr>
+                                      <tr class="bg-color-table">
+                                        <th scope="row" class="color-table">3</th>
+                                        <td class="color-table">Improvements and Bug Fixes from 2022-06-08 17:00 CEST to 2022-06-08 18:00 CEST</td>
+                                        <td class="color-white">2022-06-08</td>
+                                      </tr>
+                                      <tr class="bg-color-table">
+                                        <th scope="row" class="color-table">4</th>
+                                        <td class="color-table">Improvements and Bug Fixes from 2022-05-22 17:00 CEST to 2022-05-22 18:00 CEST</td>
+                                        <td class="color-white">2022-05-22</td>
+                                      </tr>
+                                      <tr class="bg-color-table">
+                                        <th scope="row" class="color-table">5</th>
+                                        <td class="color-table">Update Networking Operator from 2022-03-31 18:00 CEST to 2022-03-31 19:00 CEST</td>
+                                        <td class="color-white">2022-03-31</td>
+                                      </tr>
+                                      <tr class="bg-color-table">
+                                        <th scope="row" class="color-table">6</th>
+                                        <td class="color-table">Various Fixes from 2022-03-23 17:00 CEST to 2022-03-23 18:00 CEST</td>
+                                        <td class="color-white">2022-03-23</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+                            </div>
+                          </div>
+                    <!-- </div> -->
+
+                    <!-- <div class="col-md-1"></div> -->
                 </div>
-
-                <div class="col-md-1"></div>
-              </div>
             </div>
           <!-- End Cards 2 -->
 
@@ -113,24 +135,7 @@
           <div class="container" style="margin-top: 0px;">
             <div class="row">
               
-              <div class="col-md-1"></div>
-
-                <div class="col-md-10">
-                  <!-- <h6 class="card-title text-end" style="color: #aaaaaabd; padding-right: 20px;">100% Uptime</h6> -->
-<!--                  
-                  <div class="row" style="text-align: center; color: #aaaaaabd; ">
-                      <div class="col-md-2">60 days ago</div>
-                      <div class="col-md-8"></div>
-                      <div class="col-md-2">Today</div>
-                  </div> -->
-
-                  <div class="row" style="color: red; padding-left: 0px; margin-bottom: 70px; ">
-                    <div class="col-md-6"><- Back</div>
-                    <!-- <div class="col-md-2"></div> -->
-                    <!-- <div class="col-md-4"><a href="#" style="color: red;">Incident & maintenance history</a></div> -->
-                </div>
-                </div>
-              <div class="col-md-1"></div>
+             
 
             </div>
           </div>
