@@ -25,10 +25,11 @@
 }
 
 .text-pegasus-sub{
+    color : #fff;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .icon-size{
@@ -68,34 +69,57 @@ footer {
 
 .text-renge{
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #D9D9D9;
+    color: #fff;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top : 10px;
+}
+
+.top{
+    margin-top : 10px;
+}
+
+.bottom{
+    margin-top : 10px;
 }
 
 .text-range-footer{
-    color: #565656; 
-    font-size: 17.205px; 
-    font-weight: 500;
+    color: #000;
+    font-weight: 600;
+    color: #000; 
+    font-size: 17.205px;
     font-style: normal; 
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .text-paggination{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
-    color: #262626;
+    color: #000;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.bs-example{
+    margin: 100px;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+}
+
 .text-footer{
-    color: #565656; 
-    font-size: 18px;
+    color: #000;
+    font-weight: 600;
     font-size: 18px;
     font-style: normal; 
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.text-size{
+    margin-top: 50px;
 }
 
 .text-range-footer-link{
@@ -107,15 +131,15 @@ footer {
 }
 
 .judul{
-    font-family: 'Nunito', sans-serif;
-    position: absolute;
-    width: 253px;
-    height: 40px;
-    left: 88px;
-    top: 136px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 125%;
+    /* font-family: 'Nunito', sans-serif; */
+    /* position: absolute; */
+    /* width: 253px; */
+    /* height: 40px; */
+    /* left: 88px; */
+    /* top: 136px; */
+    /* font-weight: 900; */
+    /* font-size: 32px; */
+    /* line-height: 125%; */
     /* identical to box height, or 40px */
 
 
@@ -299,7 +323,7 @@ table {
     border-radius: 12px;
 
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 16px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     
@@ -328,7 +352,7 @@ hr{
 }
 
 .sub-judul-insident{
-    color: #565656;
+    color: #000;
 
     font-family: 'Nunito';
     font-style: normal;
@@ -368,12 +392,11 @@ hr{
 }
 
 .judul-insident{
-    color: #009688;
+    color: #000;
     font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    /* font-style: normal; */
+    font-weight: 900;
     font-size: 28px;
-    color: #262626;
 }
 
 .color-white{
@@ -381,7 +404,7 @@ hr{
     font-size: 22px;
     font-style: normal;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .color-text-menu-tab{
