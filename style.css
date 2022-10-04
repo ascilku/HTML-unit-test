@@ -9,20 +9,9 @@
     background-color: #fff;
 }
 
-.text-operational{
-    font-family: 'Nunito', sans-serif;
-    color: #48CBA5;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-}
 
-.text-pegasus{
-    font-family: 'Nunito', sans-serif;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-}
+
+
 
 .text-pegasus-sub{
     color : #fff;
@@ -56,26 +45,9 @@
     margin-left: 12px;
 }
 
-footer {
-    /* position:absolute;    */
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    /* font-weight: 500; */
-    font-size: 18px;
-    
-    bottom:0;
-    width:100%;
-    /* height:60px; */
-    /* background:#6cf; */
- }
 
-.text-renge{
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #fff;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    margin-top : 10px;
-}
+
+
 
 .top{
     margin-top : 10px;
@@ -85,14 +57,7 @@ footer {
     margin-top : 10px;
 }
 
-.text-range-footer{
-    color: #000;
-    font-weight: 600;
-    color: #000; 
-    font-size: 17.205px;
-    font-style: normal; 
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
+
 
 .text-paggination{
     font-style: normal;
@@ -232,13 +197,7 @@ footer {
     margin-top: 10px;
 }
 
-.logo-company{
-    /* position: absolute; */
-    /* width: 247.8px; */
-    height: 74.76px;
-    margin-left: 43.01px;
-    top: 24px;
-}
+
 
 .color-biru{
     color: #007bff;
@@ -260,11 +219,6 @@ footer {
     border-radius: 40px;
 } */
 
-.margin-text-judul{
-    margin-top: 0px;
-    font-weight: 500;
-    font-size: 36px;
-}
 
 .text-judul {
     /* text-shadow: 3px 2px 1px grey; */
@@ -439,6 +393,225 @@ body{
     width: 40%;
 } */
 
+/* @media (min-width:0) { 
+    .nav-link{
+        text-transform: uppercase;
+    }
+
+    
+} */
+
+.text-operational{
+        font-family: 'Nunito', sans-serif;
+        color: #48CBA5;
+        font-size: 16px;
+        font-style: normal;
+        padding-left: 7%;
+        font-weight: 700;
+    }
+
+    .text-pegasus{
+        font-family: 'Nunito', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .margin-text-judul{
+        margin-top: 13px;
+        font-weight: 500;
+        font-size: 19px;
+    }
+
+    .blog{
+        width: 9px; 
+        height: 35px; 
+        background-color: #48CBA5;
+        margin-bottom : 5%;
+    }
+
+    .logo-company{
+        /* position: absolute; */
+        /* width: 247.8px; */
+        height: 50px;
+        margin-left: 0px;
+        top: 24px;
+    }
+
+    .top-all-judul{
+        margin-top: 50px;
+    }
+
+    /* div.scrollmenu {
+        overflow: auto;
+        white-space: nowrap;
+      } */
+
+
+      div.scrollmenu {
+        /* background-color: #333; */
+        overflow: auto;
+        white-space: nowrap;
+        
+      }
+      
+      /* div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        padding-top:20%;
+      } */
+      
+      div.scrollmenu a:hover {
+        /* background-color: #777; */
+      }
+
+      .text-renge{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top : 10px;
+    }
+
+    .text-range-footer{
+        color: #000;
+        font-weight: 600;
+        color: #000; 
+        font-size: 14px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    footer {
+        /* position:absolute;    */
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        /* font-weight: 500; */
+        font-size: 18px;
+        background-color: #262626;
+        
+        bottom:0;
+        width:100%;
+        /* height:60px; */
+        /* background:#6cf; */
+     }
+     
+     .margin-top-footer{
+        margin-top: 25%;
+     }
+
+    
+      
+
+    
+
+
+/* Dekstop Vertion */
+/* @media (min-width: 300px) { 
+    .nav-link{
+        text-transform: uppercase;
+    }
+
+    .text-operational{
+        font-family: 'Nunito', sans-serif;
+        color: #48CBA5;
+        font-size: 18px;
+        font-style: normal;
+        padding-left: 5%;
+        font-weight: 700;
+    }
+
+    .margin-text-judul{
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 19px;
+    }
+} */
+
+
+
+/* Dekstop Vertion */
+@media (min-width: 768px) { 
+    .nav-link{
+        text-transform: uppercase;
+        /* margin-right: 30px; */
+    }
+
+    .text-operational{
+        font-family: 'Nunito', sans-serif;
+        color: #48CBA5;
+        font-size: 18px;
+        font-style: normal;
+        padding-left: 9%;
+        font-weight: 700;
+    }
+
+    .margin-text-judul{
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 25px;
+    }
+    
+    .sub-left{
+        padding-left: 45px;
+    }
+
+    .logo-company{
+        /* position: absolute; */
+        /* width: 247.8px; */
+        height: 74.76px;
+        margin-left: 43.01px;
+        top: 24px;
+    }
+
+    .top-all-judul{
+        margin-top: 95px;
+    }
+
+    .text-renge{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top : 10px;
+    }
+
+    .text-range-footer{
+        color: #000;
+        font-weight: 600;
+        color: #000; 
+        font-size: 17.205px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .text-end- {
+        text-align: right!important;
+    }
+
+    footer {
+        /* position:absolute;    */
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        /* font-weight: 500; */
+        font-size: 18px;
+        background-color: #262626;
+        
+        bottom:0;
+        width:100%;
+        /* height:60px; */
+        /* background:#6cf; */
+     }
+
+     .margin-top-footer{
+        margin-top: 10%;
+     }
+    
+}
+
 
 /* Dekstop Vertion */
 @media (min-width: 992px) { 
@@ -447,14 +620,234 @@ body{
         /* margin-right: 30px; */
     }
 
-    /* .nav-link:hover::after{
-        content: '';
-        display: block;
-        border-bottom: 3px solid #0B63DC;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 5px;
-        margin-bottom: -8px;
-    } */
+    .text-operational{
+        font-family: 'Nunito', sans-serif;
+        color: #48CBA5;
+        font-size: 18px;
+        font-style: normal;
+        padding-left: 7%;
+        font-weight: 700;
+    }
+
+    .margin-text-judul{
+        margin-top: 6px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .sub-left{
+        padding-left: 45px;
+    }
+
+    .logo-company{
+        /* position: absolute; */
+        /* width: 247.8px; */
+        height: 74.76px;
+        margin-left: 43.01px;
+        top: 24px;
+    }
+
+    .top-all-judul{
+        margin-top: 95px;
+    }
+
+    .text-renge{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top : 10px;
+    }
+
+    .text-range-footer{
+        color: #000;
+        font-weight: 600;
+        color: #000; 
+        font-size: 17.205px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .text-end- {
+        text-align: right!important;
+    }
+
+    footer {
+        /* position:absolute;    */
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        /* font-weight: 500; */
+        font-size: 18px;
+        background-color: #262626;
+        
+        bottom:0;
+        width:100%;
+        /* height:60px; */
+        /* background:#6cf; */
+     }
+
+     .margin-top-footer{
+        margin-top: 10%;
+     }
+    
 }
+
+/* Dekstop Vertion */
+@media (min-width: 1200px) { 
+    .nav-link{
+        text-transform: uppercase;
+        /* margin-right: 30px; */
+    }
+
+    .text-operational{
+        font-family: 'Nunito', sans-serif;
+        color: #48CBA5;
+        font-size: 18px;
+        font-style: normal;
+        padding-left: 10%;
+        font-weight: 700;
+    }
+
+    .margin-text-judul{
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 36px;
+    }
+
+    .sub-left{
+        padding-left: 45px;
+    }
+
+    .logo-company{
+        /* position: absolute; */
+        /* width: 247.8px; */
+        height: 74.76px;
+        margin-left: 43.01px;
+        top: 24px;
+    }
+
+    .top-all-judul{
+        margin-top: 95px;
+    }
+
+    .text-renge{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top : 10px;
+    }
+
+    .text-range-footer{
+        color: #000;
+        font-weight: 600;
+        color: #000; 
+        font-size: 17.205px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .text-end- {
+        text-align: right!important;
+    }
+
+    footer {
+        /* position:absolute;    */
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        /* font-weight: 500; */
+        font-size: 18px;
+        background-color: #262626;
+        
+        bottom:0;
+        width:100%;
+        /* height:60px; */
+        /* background:#6cf; */
+     }
+
+     .margin-top-footer{
+        margin-top: 10%;
+     }
+    
+}
+
+@media (min-width: 1400px) { 
+    .nav-link{
+        text-transform: uppercase;
+        /* margin-right: 30px; */
+    }
+
+    .text-operational{
+        font-family: 'Nunito', sans-serif;
+        color: #48CBA5;
+        font-size: 18px;
+        font-style: normal;
+        padding-left: 12%;
+        font-weight: 700;
+    }
+
+    .margin-text-judul{
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 36px;
+    }
+
+    .sub-left{
+        padding-left: 45px;
+    }
+    
+    .logo-company{
+        /* position: absolute; */
+        /* width: 247.8px; */
+        height: 74.76px;
+        margin-left: 43.01px;
+        top: 24px;
+    }
+
+    .top-all-judul{
+        margin-top: 95px;
+    }
+
+    .text-renge{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top : 10px;
+    }
+
+    .text-range-footer{
+        color: #000;
+        font-weight: 600;
+        color: #000; 
+        font-size: 17.205px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .text-end- {
+        
+        text-align: right!important;
+    }
+
+    footer {
+        /* position:absolute;    */
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        /* font-weight: 500; */
+        font-size: 18px;
+        background-color: #262626;
+        
+        bottom:0;
+        width:100%;
+        /* height:60px; */
+        /* background:#6cf; */
+     }
+
+     .margin-top-footer{
+        margin-top: 10%;
+     }
+}
+
+
 
