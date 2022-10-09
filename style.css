@@ -86,7 +86,7 @@ footer {
 .text-footer{
     color: #565656;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal; 
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -378,7 +378,7 @@ hr{
     font-family: 'Nunito', sans-serif;
     /* font-style: normal; */
     font-weight: 900;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 .color-white{
@@ -548,6 +548,16 @@ body{
         margin-bottom: 100px;
     }
 
+    .margin-top-judul-insident{
+        margin-top: 26px;
+    }
+
+    .margin-left-tgl{
+        margin-top: 7%; 
+        
+        /* margin-left: 50px; */
+    }
+
 /* Dekstop Vertion */
 /* @media (min-width: 300px) { 
     .nav-link{
@@ -713,6 +723,23 @@ body{
         /* margin-left:20px */
         margin-left:60px;
     }
+
+    .judul-insident{
+        color: #000;
+        font-family: 'Nunito', sans-serif;
+        /* font-style: normal; */
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .margin-top-judul-insident{
+        margin-top: 40px;
+    }
+
+    .margin-left-tgl{
+        margin-top: 7%; 
+        margin-left: 50px;
+    }
     
 }
 
@@ -855,6 +882,23 @@ body{
         /* margin-left:20px */
         margin-left:90px;
     }
+
+    .judul-insident{
+        color: #000;
+        font-family: 'Nunito', sans-serif;
+        /* font-style: normal; */
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .margin-top-judul-insident{
+        margin-top: 40px;
+    }
+
+    .margin-left-tgl{
+        margin-top: 7%; 
+        margin-left: 50px;
+    }
 }
 
 /* Dekstop Vertion */
@@ -993,6 +1037,23 @@ body{
     .all-margin-left{
         /* margin-left:20px */
         margin-left:100px
+    }
+
+    .judul-insident{
+        color: #000;
+        font-family: 'Nunito', sans-serif;
+        /* font-style: normal; */
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .margin-top-judul-insident{
+        margin-top: 40px;
+    }
+
+    .margin-left-tgl{
+        margin-top: 7%; 
+        margin-left: 50px;
     }
     
 }
@@ -1141,6 +1202,23 @@ body{
     .all-margin-left{
         /* margin-left:20px */
         margin-left:130px
+    }
+
+    .judul-insident{
+        color: #000;
+        font-family: 'Nunito', sans-serif;
+        /* font-style: normal; */
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .margin-top-judul-insident{
+        margin-top: 40px;
+    }
+
+    .margin-left-tgl{
+        margin-top: 7%; 
+        margin-left: 50px;
     }
 }
 
