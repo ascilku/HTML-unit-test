@@ -9,14 +9,10 @@
     background-color: #fff;
 }
 
-
-
-
-
 .text-pegasus-sub{
     color : #fff;
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin-top:15px;
     font-style: normal;
     font-weight: 700;
@@ -86,15 +82,19 @@ footer {
 .text-footer{
     color: #565656;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal; 
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-
-
-
-
+.text-footer-{
+    color: #565656;
+    font-weight: 600;
+    /* font-size: 16px; */
+    font-style: normal; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0;
+}
 
 .margin-top-pegasus{
     margin-top: 60px;
@@ -103,59 +103,35 @@ footer {
 .text-range-footer-link{
     color: #BE1622; 
     padding-right: 20px; 
-    font-size: 17.205px; 
+    font-size: 16px; 
     font-style: normal; 
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.judul{
-    /* font-family: 'Nunito', sans-serif; */
-    /* position: absolute; */
-    /* width: 253px; */
-    /* height: 40px; */
-    /* left: 88px; */
-    /* top: 136px; */
-    /* font-weight: 900; */
-    /* font-size: 32px; */
-    /* line-height: 125%; */
-    /* identical to box height, or 40px */
-
-
-    /* Black */
-
+.judul-{
+    font-size: 17px;
     color: #262626;
     margin-left: 16px;
 }
 
-.all-margin-left{
-    margin-left:20px
-    /* margin-left:130px */
-}
+
 
 .img-margin-right{
     margin-right:px;
 }
 
-.img-all{
-    width:27px;
-    /* height : 14.08px; */
-}
+
 
 .check_icn{
     background-color: #000;
 }
 
 .operational{
-    height: 70px; 
     text-align: center;
     background: #BE1622;
     border-radius: 12px;
-
-    /* width: 651px; */
-    height: 93px;
+    height: 65px;
     color: white; font-size: 25px;
-    /* left: 394.5px; */
-    /* top: 232px; */
 }
 
 .tombol{
@@ -216,15 +192,14 @@ footer {
 }
 
 .text-contact-info{
-    margin-top: 30px; 
-    font-family: 'Plus Jakarta Sans', sans-serif; 
-    font-weight: 600; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center; 
     font-size: 16px; 
+    color: #565656; 
+    margin-top: 30px; 
+    font-weight: 600; 
     color: #000;
-    
 }
-
-
 
 .color-biru{
     color: #007bff;
@@ -306,7 +281,7 @@ table {
 
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     
 
@@ -339,7 +314,7 @@ hr{
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 34px;
 }
 
@@ -358,14 +333,14 @@ hr{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .card-insident-p2{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
 }
 
@@ -378,13 +353,13 @@ hr{
     font-family: 'Nunito', sans-serif;
     /* font-style: normal; */
     font-weight: 900;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .color-white{
     color: #fff;
     /* font-size: 22px; */
-    font-size: 10px;
+    font-size: 14px;
     font-style: normal;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 600;
@@ -395,7 +370,7 @@ hr{
     font-weight: 700;
     font-family: 'Plus Jakarta Sans', sans-serif;
     /* font-size: 20px; */
-    font-size: 10px;
+    font-size: 14px;
     font-style: normal;
     color: #262626;
 }
@@ -447,21 +422,33 @@ body{
     }
 
     .margin-text-judul{
-        margin-top: 13px;
+        margin-top: 3px;
         font-weight: 500;
-        font-size: 19px;
+        font-size: 17px;
+        /* margin-left:20px; */
+        margin-right : -30px;
+    }
+
+    .img-all{
+        width:27px;
+        margin-top:-14px;
+        margin-right:-30px;
     }
 
     .blog{
         width: 9px; 
         height: 35px; 
         background-color: #48CBA5;
-        margin-bottom : 5%;
+        margin-bottom : 1%;
+    }
+
+    .margin-bottom-span{
+        
     }
 
     .logo-company{
         /* position: absolute; */
-        width: 90px;
+        width: 120px;
         /* height: 74.76px; */
         margin-left: 16px;
         top: 24px;
@@ -471,42 +458,22 @@ body{
         margin-top: 50px;
     }
 
-    /* div.scrollmenu {
-        overflow: auto;
-        white-space: nowrap;
-      } */
-
 
       div.scrollmenu {
-        /* background-color: #333; */
         overflow: auto;
         white-space: nowrap;
         
       }
-      
-      /* div.scrollmenu a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px;
-        text-decoration: none;
-        padding-top:20%;
-      } */
-      
-      div.scrollmenu a:hover {
-        /* background-color: #777; */
-      }
+     
 
       .text-renge{
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 600;
         margin-top : 10px;
     }
-
-   
 
     footer {
         /* position:absolute;    */
@@ -519,19 +486,28 @@ body{
         width:100%;
         /* height:60px; */
         /* background:#6cf; */
-     }
+    }
      
-     .margin-top-footer{
-        margin-top: 25%;
-     }
+    .margin-top-footer{
+        margin-top: 15%;
+    }
      
-    
+    .this-top{
+        width: 17px;
+        margin-bottom:5px
+    }
+
+    .marg-top-this{
+        margin-bottom:15px;
+        font-size: 14px;
+        
+    }
 
      .text-range-footer{
         color: #000;
         font-weight: 600;
         color: #000; 
-        font-size: 13px;
+        font-size: 14px;
         font-style: normal; 
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
@@ -553,10 +529,11 @@ body{
     }
 
     .margin-left-tgl{
-        margin-top: 7%; 
-        
+        margin-top: 7%;
         /* margin-left: 50px; */
     }
+
+    
 
 /* Dekstop Vertion */
 /* @media (min-width: 300px) { 
@@ -573,11 +550,7 @@ body{
         font-weight: 700;
     }
 
-    .margin-text-judul{
-        margin-top: 8px;
-        font-weight: 500;
-        font-size: 19px;
-    }
+  
 } */
 
 
@@ -602,6 +575,7 @@ body{
         margin-top: 8px;
         font-weight: 500;
         font-size: 25px;
+        margin-left:60px;
     }
     
     .sub-left{
@@ -706,6 +680,16 @@ body{
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
+    .text-footer-{
+        color: #565656;
+        font-weight: 600;
+        /* font-size: 16px; */
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    
+        font-size: 0;
+    }
+
     .top-result{
         margin-top: 52px;
     }
@@ -715,14 +699,13 @@ body{
     }
 
     .img-all{
-        width:33.84px;
+        margin-top:13px;
+        width:31px;
+        margin-left:30px
         /* height : 14.08px; */
     }
 
-    .all-margin-left{
-        /* margin-left:20px */
-        margin-left:60px;
-    }
+    
 
     .judul-insident{
         color: #000;
@@ -740,6 +723,62 @@ body{
         margin-top: 7%; 
         margin-left: 50px;
     }
+
+    .judul-{
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        color: #262626;
+        margin-left: 16px;
+        position: absolute;
+        left: 88px;
+        top: 136px;
+        font-weight: 900;
+    }
+
+    .operational{
+        text-align: center;
+        background: #BE1622;
+        border-radius: 12px;
+        height: 93px;
+        color: white; font-size: 25px;
+    }
+
+    .text-contact-info{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-align: center; 
+        font-size: 16px; 
+        color: #565656; 
+        margin-top: 30px; 
+        font-weight: 600; 
+        color: #000;
+    }
+
+    .sub-judul-insident{
+        color: #000;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 34px;
+    }
+
+    .card-insident-p1{
+        color: #000000; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .card-insident-p2{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #000;
+    }
+    
     
 }
 
@@ -761,9 +800,10 @@ body{
     }
 
     .margin-text-judul{
+        margin-left:90px;
         margin-top: 6px;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .sub-left{
@@ -865,6 +905,15 @@ body{
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
+    .text-footer-{
+        color: #565656;
+        font-weight: 600;
+        font-size: 16px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    }
+
     .top-result{
         margin-top: 52px;
     }
@@ -878,10 +927,7 @@ body{
         /* height : 14.08px; */
     }
 
-    .all-margin-left{
-        /* margin-left:20px */
-        margin-left:90px;
-    }
+    
 
     .judul-insident{
         color: #000;
@@ -898,6 +944,68 @@ body{
     .margin-left-tgl{
         margin-top: 7%; 
         margin-left: 50px;
+    }
+
+    .judul-{
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        color: #262626;
+        margin-left: 16px;
+        position: absolute;
+        left: 88px;
+        top: 136px;
+        font-weight: 900;
+    }
+
+    .operational{
+        text-align: center;
+        background: #BE1622;
+        border-radius: 12px;
+        height: 93px;
+        color: white; font-size: 25px;
+    }
+
+    .text-contact-info{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-align: center; 
+        font-size: 16px; 
+        color: #565656; 
+        margin-top: 30px; 
+        font-weight: 600; 
+        color: #000;
+    }
+
+    .this-top{
+        width: 0px;
+    }
+
+    .marg-top-this{
+        font-size: 0;   
+    }
+
+    .sub-judul-insident{
+        color: #000;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 34px;
+    }
+
+    .card-insident-p1{
+        color: #000000; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .card-insident-p2{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #000;
     }
 }
 
@@ -918,6 +1026,7 @@ body{
     }
 
     .margin-text-judul{
+        margin-left:100px;
         margin-top: 0px;
         font-weight: 500;
         font-size: 36px;
@@ -967,7 +1076,7 @@ body{
      }
 
      .margin-top-footer{
-        margin-top: 10%;
+        margin-top: 5%;
      }
 
      .color-text-menu-tab{
@@ -1021,6 +1130,15 @@ body{
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
+    .text-footer-{
+        color: #565656;
+        font-weight: 600;
+        font-size: 16px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    }
+
     .top-result{
         margin-top: 52px;
     }
@@ -1034,10 +1152,6 @@ body{
         /* height : 14.08px; */
     }
 
-    .all-margin-left{
-        /* margin-left:20px */
-        margin-left:100px
-    }
 
     .judul-insident{
         color: #000;
@@ -1054,6 +1168,70 @@ body{
     .margin-left-tgl{
         margin-top: 7%; 
         margin-left: 50px;
+    }
+
+    .judul-{
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        color: #262626;
+        margin-left: 16px;
+        position: absolute;
+        left: 88px;
+        top: 136px;
+        font-weight: 900;
+    }
+
+    .operational{
+        text-align: center;
+        background: #BE1622;
+        border-radius: 12px;
+        height: 93px;
+        color: white; font-size: 25px;
+    }
+
+    .text-contact-info{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-align: center; 
+        font-size: 16px; 
+        color: #565656; 
+        margin-top: 30px; 
+        font-weight: 600; 
+        color: #000;
+    }
+
+    .this-top{
+        width: 0px;
+    }
+
+    .marg-top-this{
+        font-size: 0;
+        
+    }
+
+    .sub-judul-insident{
+        color: #000;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 34px;
+    }
+
+    .card-insident-p1{
+        color: #000000; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .card-insident-p2{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #000;
     }
     
 }
@@ -1077,6 +1255,7 @@ body{
         margin-top: 0px;
         font-weight: 500;
         font-size: 36px;
+        margin-left:130px
     }
 
     .sub-left{
@@ -1132,7 +1311,7 @@ body{
      }
 
      .margin-top-footer{
-        margin-top: 10%;
+        margin-top: 5%;
      }
 
      .color-text-menu-tab{
@@ -1158,7 +1337,7 @@ body{
         color: #000;
         font-weight: 600;
         color: #000; 
-        font-size: 22px;
+        font-size: 16px;
         font-style: normal; 
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
@@ -1179,11 +1358,20 @@ body{
     }
 
     .text-footer{
-    color: #565656;
-    font-weight: 600;
-    font-size: 18px;
-    font-style: normal; 
-    font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #565656;
+        font-weight: 600;
+        font-size: 18px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .text-footer-{
+        color: #565656;
+        font-weight: 600;
+        font-size: 16px;
+        font-style: normal; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    
     }
 
     .top-result{
@@ -1199,10 +1387,7 @@ body{
         /* height : 14.08px; */
     }
 
-    .all-margin-left{
-        /* margin-left:20px */
-        margin-left:130px
-    }
+    
 
     .judul-insident{
         color: #000;
@@ -1219,6 +1404,70 @@ body{
     .margin-left-tgl{
         margin-top: 7%; 
         margin-left: 50px;
+    }
+
+    .judul-{
+        font-family: 'Nunito', sans-serif;
+        font-size: 32px;
+        color: #262626;
+        margin-left: 16px;
+        position: absolute;
+        left: 88px;
+        top: 136px;
+        font-weight: 900;
+    }
+
+    .operational{
+        text-align: center;
+        background: #BE1622;
+        border-radius: 12px;
+        height: 93px;
+        color: white; font-size: 25px;
+    }
+
+    .text-contact-info{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        text-align: center; 
+        font-size: 17px; 
+        color: #565656; 
+        margin-top: 30px; 
+        font-weight: 600; 
+        color: #000;
+    }
+
+    .this-top{
+        width: 0px;
+    }
+
+    .marg-top-this{
+        font-size: 0;
+        
+    }
+
+    .sub-judul-insident{
+        color: #000;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 34px;
+    }
+
+    .card-insident-p1{
+        color: #000000; 
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .card-insident-p2{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #000;
     }
 }
 
